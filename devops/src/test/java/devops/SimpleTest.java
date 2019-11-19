@@ -8,7 +8,7 @@ public class SimpleTest {
     @Test
     void testGet() {
     	int a=5;
-    	int b=9;
+    	int b=88;
         assertEquals(7, UserService.AddTwoNumbers(a, b));
     }
 
