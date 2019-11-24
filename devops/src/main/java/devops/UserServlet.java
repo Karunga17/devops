@@ -20,7 +20,7 @@ public class UserServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest reqest, HttpServletResponse response) 
 			throws ServletException, IOException {
 		
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("db_produits_smvc");
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("db_users_smvc");
         EntityManager entityManager = factory.createEntityManager();
          
         entityManager.getTransaction().begin();
