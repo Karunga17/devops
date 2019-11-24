@@ -5,7 +5,7 @@
         http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     <persistence-unit name="db_users_smvc">
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mydb.cvwyapqibbq8.us-east-2.rds.amazonaws.com:3306/db_users_smvc" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://springprojectdb.cn6vdx4i04xx.eu-central-1.rds.amazonaws.com:3306/db_users_smvc" />
             <property name="javax.persistence.jdbc.user" value="root" />
             <property name="javax.persistence.jdbc.password" value="aws..2019" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
