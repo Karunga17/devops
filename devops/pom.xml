@@ -34,11 +34,11 @@
 	</build>
 	
 	    <distributionManagement>
-        <repository>
+        <snapshotRepository>
             <id>deployment</id>
 	    <name>NEXUS Snapshot</name>
             <url>http://18.184.222.182:8081/repository/Devops_SNAP/</url>
-        </repository>
+        </snapshotRepository>
 	<repository>
             <id>deployment</id>
 	    <name>NEXUS Release</name>
